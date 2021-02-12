@@ -1,0 +1,49 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+#navbar {
+    height: 40px;
+    background-color: darkgrey;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-logo {
+    margin-left: 32px;
+    color: white;
+    border: 1px solid green;
+}
+
+#navbar-links {
+    border: 1px solid green;
+}
+
+#navbar-link {
+    color: white;
+    margin-right: 32px;
+    border: 1px solid red;
+}
